@@ -6,7 +6,7 @@ namespace MOS_Lab_Sockets_Server
     {
         public static void Main(string[] args)
         {
-
+            AsynchronousSocketListener.StartListening();
         }
     }
 }
