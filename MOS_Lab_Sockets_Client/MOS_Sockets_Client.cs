@@ -61,6 +61,7 @@ namespace MOS_Lab_Sockets_Client
 
                 // Send test data to the remote device.  
                 Send(client, "This is a test<EOF>");
+                var watch = System.Diagnostics.Stopwatch.StartNew();
                 sendDone.WaitOne();
 
                 // Receive the response from the remote device.  
@@ -69,6 +70,8 @@ namespace MOS_Lab_Sockets_Client
 
                 // Write the response to the console.  
                 Console.WriteLine("Response received : {0}", response);
+                watch.Stop();
+                Console.WriteLine("Async socket message response time is {0} milliseconds.", watch.ElapsedMilliseconds);
 
                 // Release the socket.  
                 client.Shutdown(SocketShutdown.Both);
