@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MOS_Lab_Sockets_Client/1.0.0": {
+        "runtime": {
+          "MOS_Lab_Sockets_Client.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MOS_Lab_Sockets_Client/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

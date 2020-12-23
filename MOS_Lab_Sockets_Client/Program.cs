@@ -6,7 +6,7 @@ namespace MOS_Lab_Sockets_Client
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            AsynchronousClient.StartClient();
         }
     }
 }
