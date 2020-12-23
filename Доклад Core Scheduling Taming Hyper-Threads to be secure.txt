@@ -1,3 +1,0 @@
-Название
-Core Scheduling Taming Hyper-Threads to be secure
-
