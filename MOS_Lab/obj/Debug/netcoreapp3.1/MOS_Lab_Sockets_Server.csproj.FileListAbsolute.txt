@@ -1,0 +1,13 @@
+D:\4KNU\5course\Sem 1\Panch\MOS_Lab\obj\Debug\netcoreapp3.1\MOS_Lab_Sockets_Server.csprojAssemblyReference.cache
+D:\4KNU\5course\Sem 1\Panch\MOS_Lab\obj\Debug\netcoreapp3.1\MOS_Lab_Sockets_Server.AssemblyInfoInputs.cache
+D:\4KNU\5course\Sem 1\Panch\MOS_Lab\obj\Debug\netcoreapp3.1\MOS_Lab_Sockets_Server.AssemblyInfo.cs
+D:\4KNU\5course\Sem 1\Panch\MOS_Lab\obj\Debug\netcoreapp3.1\MOS_Lab_Sockets_Server.csproj.CoreCompileInputs.cache
+D:\4KNU\5course\Sem 1\Panch\MOS_Lab\bin\Debug\netcoreapp3.1\MOS_Lab_Sockets_Server.exe
+D:\4KNU\5course\Sem 1\Panch\MOS_Lab\bin\Debug\netcoreapp3.1\MOS_Lab_Sockets_Server.deps.json
+D:\4KNU\5course\Sem 1\Panch\MOS_Lab\bin\Debug\netcoreapp3.1\MOS_Lab_Sockets_Server.runtimeconfig.json
+D:\4KNU\5course\Sem 1\Panch\MOS_Lab\bin\Debug\netcoreapp3.1\MOS_Lab_Sockets_Server.runtimeconfig.dev.json
+D:\4KNU\5course\Sem 1\Panch\MOS_Lab\bin\Debug\netcoreapp3.1\MOS_Lab_Sockets_Server.dll
+D:\4KNU\5course\Sem 1\Panch\MOS_Lab\bin\Debug\netcoreapp3.1\MOS_Lab_Sockets_Server.pdb
+D:\4KNU\5course\Sem 1\Panch\MOS_Lab\obj\Debug\netcoreapp3.1\MOS_Lab_Sockets_Server.dll
+D:\4KNU\5course\Sem 1\Panch\MOS_Lab\obj\Debug\netcoreapp3.1\MOS_Lab_Sockets_Server.pdb
+D:\4KNU\5course\Sem 1\Panch\MOS_Lab\obj\Debug\netcoreapp3.1\MOS_Lab_Sockets_Server.genruntimeconfig.cache
