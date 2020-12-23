@@ -46,21 +46,23 @@ namespace MOS_Lab_Sockets_Client
             try
             {
                 // Establish the remote endpoint for the socket.  
-                IPHostEntry ipHostInfo = Dns.GetHostEntry("ARCHER-LAPTOP");
+                IPHostEntry ipHostInfo = Dns.GetHostEntry("DESKTOP-5AHSF5G");
                 IPAddress ipAddress = ipHostInfo.AddressList[0];
                 IPEndPoint remoteEP = new IPEndPoint(ipAddress, port);
-
-                // Create a TCP/IP socket.  
                 Socket client = new Socket(ipAddress.AddressFamily,
                     SocketType.Stream, ProtocolType.Tcp);
 
+                var conWatch = System.Diagnostics.Stopwatch.StartNew();
                 // Connect to the remote endpoint.  
                 client.BeginConnect(remoteEP,
                     new AsyncCallback(ConnectCallback), client);
                 connectDone.WaitOne();
 
                 // Send test data to the remote device.  
-                Send(client, "This is a test<EOF>");
+                //Send(client, "This is a test<EOF>");
+                Send(client, "Water is green. The other thing is that it is quite expensive. So when you find yourself at a disadvantage, put a little bit of money somewhere on an edge. The amount I know I can afford to buy a house or apartment — a place that feels competitive, a place I can be proud of, a home that is affordable if you are looking to buy a house — you really dont want to have no problems. You only have a chance to build and make money. And, more importantly, you dont want to be a bully in your community as a result of the current status quo. Let's say you want a large house, that is, where at a minimum you should live.<EOF>");
+                conWatch.Stop();
+                Console.WriteLine("Async socket connection response time is {0} milliseconds.", conWatch.ElapsedMilliseconds);
                 var watch = System.Diagnostics.Stopwatch.StartNew();
                 sendDone.WaitOne();
 
@@ -128,8 +130,8 @@ namespace MOS_Lab_Sockets_Client
         {
             try
             {
-                // Retrieve the state object and the client socket
-                // from the asynchronous state object.  
+                // Retrieve the state object and the client socket from the asynchronous state object.  
+
                 StateObject state = (StateObject)ar.AsyncState;
                 Socket client = state.workSocket;
 

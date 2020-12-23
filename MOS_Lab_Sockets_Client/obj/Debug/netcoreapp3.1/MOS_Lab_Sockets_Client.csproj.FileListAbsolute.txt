@@ -11,3 +11,16 @@ D:\4Univ\Course 5\Sem 1\Panch\Lab 4\Temp-Lab-Sockets\MOS_Lab_Sockets_Client\obj\
 D:\4Univ\Course 5\Sem 1\Panch\Lab 4\Temp-Lab-Sockets\MOS_Lab_Sockets_Client\obj\Debug\netcoreapp3.1\MOS_Lab_Sockets_Client.dll
 D:\4Univ\Course 5\Sem 1\Panch\Lab 4\Temp-Lab-Sockets\MOS_Lab_Sockets_Client\obj\Debug\netcoreapp3.1\MOS_Lab_Sockets_Client.pdb
 D:\4Univ\Course 5\Sem 1\Panch\Lab 4\Temp-Lab-Sockets\MOS_Lab_Sockets_Client\obj\Debug\netcoreapp3.1\MOS_Lab_Sockets_Client.genruntimeconfig.cache
+D:\4KNU\5course\Sem 1\Panch\MOS_Lab_Sockets_Client\bin\Debug\netcoreapp3.1\MOS_Lab_Sockets_Client.exe
+D:\4KNU\5course\Sem 1\Panch\MOS_Lab_Sockets_Client\bin\Debug\netcoreapp3.1\MOS_Lab_Sockets_Client.deps.json
+D:\4KNU\5course\Sem 1\Panch\MOS_Lab_Sockets_Client\bin\Debug\netcoreapp3.1\MOS_Lab_Sockets_Client.runtimeconfig.json
+D:\4KNU\5course\Sem 1\Panch\MOS_Lab_Sockets_Client\bin\Debug\netcoreapp3.1\MOS_Lab_Sockets_Client.runtimeconfig.dev.json
+D:\4KNU\5course\Sem 1\Panch\MOS_Lab_Sockets_Client\bin\Debug\netcoreapp3.1\MOS_Lab_Sockets_Client.dll
+D:\4KNU\5course\Sem 1\Panch\MOS_Lab_Sockets_Client\bin\Debug\netcoreapp3.1\MOS_Lab_Sockets_Client.pdb
+D:\4KNU\5course\Sem 1\Panch\MOS_Lab_Sockets_Client\obj\Debug\netcoreapp3.1\MOS_Lab_Sockets_Client.csprojAssemblyReference.cache
+D:\4KNU\5course\Sem 1\Panch\MOS_Lab_Sockets_Client\obj\Debug\netcoreapp3.1\MOS_Lab_Sockets_Client.AssemblyInfoInputs.cache
+D:\4KNU\5course\Sem 1\Panch\MOS_Lab_Sockets_Client\obj\Debug\netcoreapp3.1\MOS_Lab_Sockets_Client.AssemblyInfo.cs
+D:\4KNU\5course\Sem 1\Panch\MOS_Lab_Sockets_Client\obj\Debug\netcoreapp3.1\MOS_Lab_Sockets_Client.csproj.CoreCompileInputs.cache
+D:\4KNU\5course\Sem 1\Panch\MOS_Lab_Sockets_Client\obj\Debug\netcoreapp3.1\MOS_Lab_Sockets_Client.dll
+D:\4KNU\5course\Sem 1\Panch\MOS_Lab_Sockets_Client\obj\Debug\netcoreapp3.1\MOS_Lab_Sockets_Client.pdb
+D:\4KNU\5course\Sem 1\Panch\MOS_Lab_Sockets_Client\obj\Debug\netcoreapp3.1\MOS_Lab_Sockets_Client.genruntimeconfig.cache

@@ -8,25 +8,25 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\ArcherGE\\.nuget\\packages\\": {},
+    "C:\\Users\\User\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\4Univ\\Course 5\\Sem 1\\Panch\\Lab 4\\Temp-Lab-Sockets\\MOS_Lab_Sockets_Client\\MOS_Lab_Sockets_Client.csproj",
+      "projectUniqueName": "D:\\4KNU\\5course\\Sem 1\\Panch\\MOS_Lab_Sockets_Client\\MOS_Lab_Sockets_Client.csproj",
       "projectName": "MOS_Lab_Sockets_Client",
-      "projectPath": "D:\\4Univ\\Course 5\\Sem 1\\Panch\\Lab 4\\Temp-Lab-Sockets\\MOS_Lab_Sockets_Client\\MOS_Lab_Sockets_Client.csproj",
-      "packagesPath": "C:\\Users\\ArcherGE\\.nuget\\packages\\",
-      "outputPath": "D:\\4Univ\\Course 5\\Sem 1\\Panch\\Lab 4\\Temp-Lab-Sockets\\MOS_Lab_Sockets_Client\\obj\\",
+      "projectPath": "D:\\4KNU\\5course\\Sem 1\\Panch\\MOS_Lab_Sockets_Client\\MOS_Lab_Sockets_Client.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "D:\\4KNU\\5course\\Sem 1\\Panch\\MOS_Lab_Sockets_Client\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\ArcherGE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],

@@ -6,8 +6,9 @@ namespace MOS_Lab_Sockets_Client
     {
         static void Main(string[] args)
         {
-            AsynchronousClient.StartClient();
-            MOS_Sync_Client.StartClient();
+                Console.Read();
+                AsynchronousClient.StartClient();
+                MOS_Sync_Client.StartClient();
         }
     }
 }
