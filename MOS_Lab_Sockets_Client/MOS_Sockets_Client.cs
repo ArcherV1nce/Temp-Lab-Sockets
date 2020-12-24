@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using System.Text;
 using System.Net;
@@ -58,9 +59,17 @@ namespace MOS_Lab_Sockets_Client
                     new AsyncCallback(ConnectCallback), client);
                 connectDone.WaitOne();
 
+                //string pathToFile = "D:/4KNU/Test/12_15_2020_3_26_12_PM.txt";
+                string pathToFile = "D:/4KNU/Test/12_15_2020_9_53_34_AM.txt";
+                /*string now = DateTime.Now.ToString();
+                now = now.Replace(" ", "_").Replace(":", "_").Replace("/", "_").Replace("\\", "_");
+                string pathToLog = "D:/4KNU/Test/" + now + ".txt";
+                */
+
                 // Send test data to the remote device.  
                 //Send(client, "This is a test<EOF>");
-                Send(client, "Water is green. The other thing is that it is quite expensive. So when you find yourself at a disadvantage, put a little bit of money somewhere on an edge. The amount I know I can afford to buy a house or apartment — a place that feels competitive, a place I can be proud of, a home that is affordable if you are looking to buy a house — you really dont want to have no problems. You only have a chance to build and make money. And, more importantly, you dont want to be a bully in your community as a result of the current status quo. Let's say you want a large house, that is, where at a minimum you should live.<EOF>");
+                //Send(client, "Water is green. The other thing is that it is quite expensive. So when you find yourself at a disadvantage, put a little bit of money somewhere on an edge. The amount I know I can afford to buy a house or apartment — a place that feels competitive, a place I can be proud of, a home that is affordable if you are looking to buy a house — you really dont want to have no problems. You only have a chance to build and make money. And, more importantly, you dont want to be a bully in your community as a result of the current status quo. Let's say you want a large house, that is, where at a minimum you should live.<EOF>");
+                Send(client, File.ReadAllText(pathToFile));
                 conWatch.Stop();
                 Console.WriteLine("Async socket connection response time is {0} milliseconds.", conWatch.ElapsedMilliseconds);
                 var watch = System.Diagnostics.Stopwatch.StartNew();
